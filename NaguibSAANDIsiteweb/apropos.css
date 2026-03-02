@@ -1,0 +1,75 @@
+/* ===== PAGE A PROPOS ===== */
+
+.apropos-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ---- COLONNE GAUCHE ---- */
+.apropos-left {
+    width: 35%;
+    background-color: #d9d9d9;
+    padding: 40px;
+}
+
+.apropos-left h2 {
+    font-size: 28px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.apropos-left p {
+    font-size: 16px;
+    line-height: 1.6;
+    width: 85%;
+}
+
+
+/* ---- COLONNE DROITE ---- */
+.apropos-right {
+    width: 65%;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px;
+}
+
+.apropos-right h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.apropos-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.apropos-bloc {
+    width: 40%;
+}
+
+.apropos-bloc.large {
+    width: 100%;
+}
+
+.apropos-bloc h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.apropos-bloc ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.apropos-bloc ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.apropos-bloc p {
+    font-size: 17px;
+    line-height: 1.6;
+}
